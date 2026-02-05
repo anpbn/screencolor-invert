@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Additional styles -->
+    <style name="ColorCircle">
+        <item name="android:layout_width">@dimen/color_circle_size</item>
+        <item name="android:layout_height">@dimen/color_circle_size</item>
+    </style>
+</resources>
