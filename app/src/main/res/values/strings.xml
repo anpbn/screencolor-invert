@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ScreenColor Invert</string>
+    <string name="app_name_short">Color Invert</string>
+    
+    <!-- Main Activity -->
+    <string name="title_main">屏幕颜色替换</string>
+    <string name="subtitle_main">实时颜色识别与替换系统</string>
+    
+    <!-- Service -->
+    <string name="service_running">颜色替换服务运行中</string>
+    <string name="service_tap_to_configure">点击打开配置界面</string>
+    <string name="service_stop">停止服务</string>
+    <string name="service_pause">暂停</string>
+    <string name="service_resume">继续</string>
+    
+    <!-- Color Configuration -->
+    <string name="color_target">目标颜色</string>
+    <string name="color_replacement">替换颜色</string>
+    <string name="tolerance">容差</string>
+    <string name="tolerance_percent">%d%%</string>
+    <string name="add_color_pair">添加颜色对</string>
+    <string name="delete_color_pair">删除</string>
+    <string name="edit_color_pair">编辑</string>
+    <string name="enable">启用</string>
+    <string name="priority">优先级</string>
+    
+    <!-- Buttons -->
+    <string name="btn_start_service">启动服务</string>
+    <string name="btn_stop_service">停止服务</string>
+    <string name="btn_add">添加</string>
+    <string name="btn_save">保存</string>
+    <string name="btn_cancel">取消</string>
+    <string name="btn_pick_color">取色</string>
+    <string name="btn_preview">预览</string>
+    
+    <!-- Settings -->
+    <string name="settings">设置</string>
+    <string name="setting_frame_rate">帧率</string>
+    <string name="setting_frame_rate_30">30 FPS</string>
+    <string name="setting_frame_rate_60">60 FPS</string>
+    <string name="setting_resolution">渲染分辨率</string>
+    <string name="setting_resolution_full">100% (原生)</string>
+    <string name="setting_resolution_75">75%</string>
+    <string name="setting_resolution_50">50%</string>
+    <string name="setting_edge_smooth">边缘平滑</string>
+    <string name="setting_color_space">颜色空间</string>
+    <string name="setting_color_space_rgb">RGB</string>
+    <string name="setting_color_space_hsv">HSV</string>
+    <string name="setting_show_mask">显示蒙版</string>
+    
+    <!-- Permissions -->
+    <string name="permission_required">需要权限</string>
+    <string name="permission_overlay_required">需要悬浮窗权限才能显示覆盖层</string>
+    <string name="permission_notification_required">需要通知权限以显示服务状态</string>
+    <string name="permission_screen_capture_required">需要录屏权限以捕获屏幕内容</string>
+    <string name="btn_grant_permission">授予权限</string>
+    
+    <!-- Messages -->
+    <string name="msg_service_started">服务已启动</string>
+    <string name="msg_service_stopped">服务已停止</string>
+    <string name="msg_color_added">颜色对已添加</string>
+    <string name="msg_color_updated">颜色对已更新</string>
+    <string name="msg_color_deleted">颜色对已删除</string>
+    <string name="msg_max_colors_reached">最多支持8组颜色</string>
+    <string name="msg_tap_to_pick">点击预览区域取色</string>
+    
+    <!-- Overlay Control -->
+    <string name="overlay_drag">拖动</string>
+    <string name="overlay_settings">设置</string>
+    
+    <!-- Preview -->
+    <string name="preview_title">实时预览</string>
+    <string name="preview_mask_mode">蒙版模式</string>
+    <string name="preview_normal_mode">正常模式</string>
+    
+    <!-- Color Picker Dialog -->
+    <string name="color_picker_title">选择颜色</string>
+    <string name="color_picker_red">Red</string>
+    <string name="color_picker_green">Green</string>
+    <string name="color_picker_blue">Blue</string>
+    
+    <!-- Delete Confirmation -->
+    <string name="delete_confirm_title">删除确认</string>
+    <string name="delete_confirm_message">确定要删除这组颜色配置吗？</string>
+    <string name="btn_delete">删除</string>
+</resources>
